@@ -1,0 +1,149 @@
+*{
+  box-sizing: border-box;
+  padding:0px;
+  margin: 0px;
+}
+html {
+  font-size: 62.5%;
+}
+
+header{
+  margin:0 19px;
+}
+.header__title{
+  font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size:3.6rem;
+  line-height: 47.7px;
+
+  margin-top:71px;
+  margin-bottom: 38px;
+}
+.header__text h2{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 27px;
+
+  margin-bottom: 10px;
+}
+.header__text p{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 21px;
+  
+  margin-right: 50px;
+  margin-bottom: 60px;
+}
+
+.card__img{
+  width: 138.72px;
+  height: 165px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.img1{
+  background-image: url(../assets/img/photo1.png);
+}
+.img2{
+  background-image: url(../assets/img/photo2.png)
+}
+.img3{
+  background-image: url(../assets/img/photo3.png)
+}
+.img4{
+  background-image: url(../assets/img/photo4.png)
+}
+.img5{
+  background-image: url(../assets/img/photo5.png)
+}
+.img6{
+  background-image: url(../assets/img/photo6.png)
+}
+
+
+.main__members{
+  width: 100%;
+  display:grid;
+  grid-template-columns: repeat(2, 138.71px);
+  grid-template-rows: repeat(10, 63px);
+  column-gap:35px;
+  place-content: center;
+
+  grid-auto-flow: row;
+  row-gap: 30px;
+
+  margin-bottom: 100px;
+}
+.card--1{
+  grid-column: 1;
+  grid-row: 1/ span 1;
+}
+.card--2{
+  grid-column: 2;
+  grid-row: 2/ span 1;
+}
+.card--3{
+  grid-column: 1;
+  grid-row: 4/ span 1;
+}
+
+
+.card--4{
+  grid-column: 2;
+  grid-row: 5/ span 1;
+}
+.card--5{
+  grid-column: 1;
+  grid-row: 7/ span 1;
+}
+.card--6{
+  grid-column: 2;
+  grid-row: 8/ span 1;
+}
+
+.members__card h3{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.members__card p{
+  font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  text-transform: uppercase;
+
+  position: relative;
+  white-space: nowrap;
+  top: -132px;
+  left: 78px;
+  transform: rotate(90deg);  
+}
+footer{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  margin-bottom:24px;
+}
+footer p{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 17px;
+  text-align: center;
+  color: #A9A9A9;
+}
+footer span{
+  font-weight: bold;
+}
