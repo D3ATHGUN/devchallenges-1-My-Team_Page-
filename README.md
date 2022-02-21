@@ -37,6 +37,7 @@
 ## Overview
 
 ![screenshot](https://github.com/D3ATHGUN/devchallenges-2-My-Team-Page/blob/main/Overview.PNG)
+
 This project gave me the opportunity to improve my CSS GRID skills
 
 ### Built With
