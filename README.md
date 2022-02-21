@@ -36,9 +36,13 @@
 
 ## Overview
 
+![screenshot](https://github.com/D3ATHGUN/devchallenges-1-404-Not-Found/blob/main/overview.PNG)
+This project helped me to consolidate my skills in CSS Flexbox and Responsive Design.
+## Overview
+
 ![screenshot](https://github.com/D3ATHGUN/devchallenges-2-My-Team-Page/blob/main/Overview.PNG)
 
-This project gave me the opportunity to improve my CSS GRID skills
+This project gave me the opportunity to improve my CSS GRID and Responsive Design skills.
 
 ### Built With
 
